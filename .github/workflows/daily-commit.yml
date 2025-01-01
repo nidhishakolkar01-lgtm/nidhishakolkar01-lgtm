@@ -1,0 +1,36 @@
+name: Daily Activity Heartbeat
+
+on:
+  schedule:
+    # Weekdays (Mon-Fri): 2 automated engineering checkpoints (10:30 AM & 8:30 PM IST)
+    - cron: '0 5,15 * * 1-5'
+    # Weekends (Sat-Sun): 5 marathon sprint checkpoints across the 16-20hr building window (9:30 AM, 1:30 PM, 5:30 PM, 9:30 PM, 1:30 AM IST)
+    - cron: '0 4,8,12,16,20 * * 0,6'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Record Daily Telemetry Heartbeat
+        run: |
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          echo "[$TIMESTAMP] chore: automated telemetry node heartbeat" >> activity.log
+          # Keep activity.log clean (keep last 300 entries)
+          tail -n 300 activity.log > activity.tmp && mv activity.tmp activity.log
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "Nidhish Akolkar"
+          git config --global user.email "nidhishakolkar01@gmail.com"
+          git add activity.log
+          git commit -m "chore(telemetry): automated heartbeat [$(date -u +'%Y-%m-%d %H:%M') UTC]"
+          git push
