@@ -1,0 +1,26 @@
+name: Daily Activity Automation
+
+on:
+  schedule:
+    - cron: '37 14,20 * * *'
+  workflow_dispatch:
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update activity timestamp
+        run: |
+          date -u +"%Y-%m-%dT%H:%M:%SZ" >> .github/activity_pulse.log
+          git config user.name "Nidhish Akolkar"
+          git config user.email "nidhishakolkar01@gmail.com"
+          git add .github/activity_pulse.log
+          git commit -m "chore(telemetry): record automated pulse [skip ci]" || exit 0
+          git push origin main
