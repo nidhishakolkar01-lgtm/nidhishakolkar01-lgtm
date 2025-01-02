@@ -1,3 +1,4 @@
 # System Activity Log
 [2025-01-01T15:17:16] feat: integrate zero-shot VLM embedding cache
 [2025-01-01T22:30:49] perf: reduce viseme queue latency in optical pipeline
+[2025-01-02T14:33:14] feat: add deterministic replay boundary for sub-agent failures
