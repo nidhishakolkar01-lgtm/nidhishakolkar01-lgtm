@@ -13,3 +13,4 @@
 [2025-01-03T21:00:53] chore: prune stale execution graph edges
 [2025-01-03T22:03:14] chore: prune stale execution graph edges
 [2025-01-04T01:26:19] fix: eliminate memory leakage in WebSocket telemetry multiplexer
+[2025-01-04T01:32:02] docs: update architecture specifications for C2 node
