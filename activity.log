@@ -25,3 +25,4 @@
 [2025-01-04T15:06:05] feat: implement adaptive frame-skipping in edge ReID worker
 [2025-01-04T16:55:02] perf: accelerate CLAHE contrast preprocessing
 [2025-01-04T17:48:54] test: add unit coverage for deterministic rollback boundaries
+[2025-01-04T18:12:03] test: benchmark inference throughput under concurrent load
