@@ -22,3 +22,4 @@
 [2025-01-04T12:50:04] fix: handle state-drift mitigation on parallel branches
 [2025-01-04T13:17:14] feat: add telemetry metrics to heartbeat loop
 [2025-01-04T14:56:10] perf: accelerate CLAHE contrast preprocessing
+[2025-01-04T15:06:05] feat: implement adaptive frame-skipping in edge ReID worker
