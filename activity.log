@@ -28,3 +28,4 @@
 [2025-01-04T18:12:03] test: benchmark inference throughput under concurrent load
 [2025-01-04T19:07:29] refactor: optimize agent state-checkpointing pipeline
 [2025-01-04T20:20:48] perf: accelerate CLAHE contrast preprocessing
+[2025-01-04T21:56:14] docs: update architecture specifications for C2 node
