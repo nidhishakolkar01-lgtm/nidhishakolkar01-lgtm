@@ -20,3 +20,4 @@
 [2025-01-04T10:34:51] chore: sync distributed node telemetry schema
 [2025-01-04T11:50:09] feat: add structured audit logging to agent supervisor
 [2025-01-04T12:50:04] fix: handle state-drift mitigation on parallel branches
+[2025-01-04T13:17:14] feat: add telemetry metrics to heartbeat loop
