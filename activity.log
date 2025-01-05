@@ -42,3 +42,4 @@
 [2025-01-05T15:49:44] test: benchmark inference throughput under concurrent load
 [2025-01-05T16:25:41] feat: add structured audit logging to agent supervisor
 [2025-01-05T17:11:33] docs: update architecture specifications for C2 node
+[2025-01-05T18:33:45] feat: add telemetry metrics to heartbeat loop
