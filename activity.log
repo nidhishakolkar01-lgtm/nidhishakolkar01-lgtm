@@ -44,3 +44,4 @@
 [2025-01-05T17:11:33] docs: update architecture specifications for C2 node
 [2025-01-05T18:33:45] feat: add telemetry metrics to heartbeat loop
 [2025-01-05T19:53:12] fix: resolve race condition in task routing bus
+[2025-01-05T20:09:01] test: add unit coverage for deterministic rollback boundaries
