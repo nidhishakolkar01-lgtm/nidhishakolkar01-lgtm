@@ -40,3 +40,4 @@
 [2025-01-05T13:34:39] feat: implement adaptive frame-skipping in edge ReID worker
 [2025-01-05T14:25:26] refactor: modularize async queue broker
 [2025-01-05T15:49:44] test: benchmark inference throughput under concurrent load
+[2025-01-05T16:25:41] feat: add structured audit logging to agent supervisor
