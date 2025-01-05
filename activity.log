@@ -46,3 +46,4 @@
 [2025-01-05T19:53:12] fix: resolve race condition in task routing bus
 [2025-01-05T20:09:01] test: add unit coverage for deterministic rollback boundaries
 [2025-01-05T21:47:29] test: benchmark inference throughput under concurrent load
+[2025-01-05T22:25:03] docs: update architecture specifications for C2 node
