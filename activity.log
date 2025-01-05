@@ -37,3 +37,4 @@
 [2025-01-05T10:47:10] chore: prune stale execution graph edges
 [2025-01-05T11:13:06] fix: handle state-drift mitigation on parallel branches
 [2025-01-05T12:54:05] perf: reduce viseme queue latency in optical pipeline
+[2025-01-05T13:34:39] feat: implement adaptive frame-skipping in edge ReID worker
