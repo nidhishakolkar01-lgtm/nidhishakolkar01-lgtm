@@ -51,3 +51,4 @@
 [2025-01-06T19:17:00] refactor: modularize async queue broker
 [2025-01-07T14:00:46] perf: accelerate CLAHE contrast preprocessing
 [2025-01-07T16:59:27] refactor: simplify Ray-casting virtual tripwire logic
+[2025-01-07T19:44:55] feat: add telemetry metrics to heartbeat loop
