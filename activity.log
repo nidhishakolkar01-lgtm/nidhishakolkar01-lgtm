@@ -53,3 +53,4 @@
 [2025-01-07T16:59:27] refactor: simplify Ray-casting virtual tripwire logic
 [2025-01-07T19:44:55] feat: add telemetry metrics to heartbeat loop
 [2025-01-08T14:15:56] perf: quantize temporal convolutional weights for low-power edge
+[2025-01-08T16:21:30] feat: implement adaptive frame-skipping in edge ReID worker
