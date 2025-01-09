@@ -55,3 +55,4 @@
 [2025-01-08T14:15:56] perf: quantize temporal convolutional weights for low-power edge
 [2025-01-08T16:21:30] feat: implement adaptive frame-skipping in edge ReID worker
 [2025-01-08T18:57:44] perf: reduce viseme queue latency in optical pipeline
+[2025-01-09T15:00:55] perf: quantize temporal convolutional weights for low-power edge
