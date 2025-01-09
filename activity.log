@@ -57,3 +57,4 @@
 [2025-01-08T18:57:44] perf: reduce viseme queue latency in optical pipeline
 [2025-01-09T15:00:55] perf: quantize temporal convolutional weights for low-power edge
 [2025-01-09T16:51:46] refactor: modularize async queue broker
+[2025-01-09T16:04:13] fix: eliminate memory leakage in WebSocket telemetry multiplexer
