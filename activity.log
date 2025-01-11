@@ -68,3 +68,4 @@
 [2025-01-10T21:14:54] feat: add structured audit logging to agent supervisor
 [2025-01-10T21:37:34] chore: sync distributed node telemetry schema
 [2025-01-11T01:58:18] docs: update architecture specifications for C2 node
+[2025-01-11T08:34:47] perf: quantize temporal convolutional weights for low-power edge
