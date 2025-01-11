@@ -70,3 +70,4 @@
 [2025-01-11T01:58:18] docs: update architecture specifications for C2 node
 [2025-01-11T08:34:47] perf: quantize temporal convolutional weights for low-power edge
 [2025-01-11T09:22:04] chore: update container dependency layers
+[2025-01-11T13:02:12] feat: add structured audit logging to agent supervisor
