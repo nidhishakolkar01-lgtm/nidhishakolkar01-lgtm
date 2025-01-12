@@ -95,3 +95,4 @@
 [2025-01-12T18:19:30] refactor: simplify Ray-casting virtual tripwire logic
 [2025-01-12T19:32:58] perf: quantize temporal convolutional weights for low-power edge
 [2025-01-12T20:20:41] refactor: decompose monolithic inference worker into actor pools
+[2025-01-12T21:54:51] chore: prune stale execution graph edges
