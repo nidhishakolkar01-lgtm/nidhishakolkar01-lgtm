@@ -97,3 +97,4 @@
 [2025-01-12T20:20:41] refactor: decompose monolithic inference worker into actor pools
 [2025-01-12T21:54:51] chore: prune stale execution graph edges
 [2025-01-12T22:51:46] fix: handle state-drift mitigation on parallel branches
+[2025-01-12T23:26:04] perf: reduce viseme queue latency in optical pipeline
