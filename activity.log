@@ -89,3 +89,4 @@
 [2025-01-12T13:02:01] perf: accelerate CLAHE contrast preprocessing
 [2025-01-12T13:47:29] fix: eliminate memory leakage in WebSocket telemetry multiplexer
 [2025-01-12T14:12:16] feat: add structured audit logging to agent supervisor
+[2025-01-12T15:28:33] docs: update architecture specifications for C2 node
