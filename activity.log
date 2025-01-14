@@ -107,3 +107,4 @@
 [2025-01-14T14:58:07] feat: integrate zero-shot VLM embedding cache
 [2025-01-14T20:26:54] refactor: decompose monolithic inference worker into actor pools
 [2025-01-14T20:43:57] feat: integrate zero-shot VLM embedding cache
+[2025-01-14T21:40:49] chore: update container dependency layers
