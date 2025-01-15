@@ -111,3 +111,4 @@
 [2025-01-14T21:20:18] test: add unit coverage for deterministic rollback boundaries
 [2025-01-15T18:16:33] refactor: optimize agent state-checkpointing pipeline
 [2025-01-15T19:47:19] refactor: simplify Ray-casting virtual tripwire logic
+[2025-01-15T19:26:11] feat: enhance token extraction pipeline
