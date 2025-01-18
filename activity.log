@@ -128,3 +128,4 @@
 [2025-01-18T02:42:33] perf: accelerate CLAHE contrast preprocessing
 [2025-01-18T08:01:18] chore: sync distributed node telemetry schema
 [2025-01-18T09:25:58] fix: eliminate memory leakage in WebSocket telemetry multiplexer
+[2025-01-18T10:14:56] feat: add telemetry metrics to heartbeat loop
