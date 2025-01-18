@@ -133,3 +133,4 @@
 [2025-01-18T12:12:15] feat: add structured audit logging to agent supervisor
 [2025-01-18T13:49:19] feat: integrate zero-shot VLM embedding cache
 [2025-01-18T14:32:56] fix: resolve race condition in task routing bus
+[2025-01-18T15:55:02] perf: reduce viseme queue latency in optical pipeline
