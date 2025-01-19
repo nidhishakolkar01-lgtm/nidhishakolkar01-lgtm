@@ -148,3 +148,4 @@
 [2025-01-19T12:33:57] refactor: decompose monolithic inference worker into actor pools
 [2025-01-19T13:24:44] chore: prune stale execution graph edges
 [2025-01-19T15:17:10] feat: add telemetry metrics to heartbeat loop
+[2025-01-19T16:36:07] feat: enhance token extraction pipeline
