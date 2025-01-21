@@ -160,3 +160,4 @@
 [2025-01-20T18:47:41] feat: implement adaptive frame-skipping in edge ReID worker
 [2025-01-20T20:43:00] feat: enhance token extraction pipeline
 [2025-01-21T14:02:47] feat: integrate zero-shot VLM embedding cache
+[2025-01-21T17:52:09] chore: prune stale execution graph edges
