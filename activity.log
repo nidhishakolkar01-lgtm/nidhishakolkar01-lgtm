@@ -166,3 +166,4 @@
 [2025-01-21T20:19:22] perf: reduce viseme queue latency in optical pipeline
 [2025-01-21T22:28:17] docs: update architecture specifications for C2 node
 [2025-01-22T14:29:21] refactor: decompose monolithic inference worker into actor pools
+[2025-01-22T16:49:01] refactor: simplify Ray-casting virtual tripwire logic
