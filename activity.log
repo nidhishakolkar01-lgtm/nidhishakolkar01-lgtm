@@ -165,3 +165,4 @@
 [2025-01-21T19:46:48] perf: accelerate CLAHE contrast preprocessing
 [2025-01-21T20:19:22] perf: reduce viseme queue latency in optical pipeline
 [2025-01-21T22:28:17] docs: update architecture specifications for C2 node
+[2025-01-22T14:29:21] refactor: decompose monolithic inference worker into actor pools
