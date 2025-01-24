@@ -173,3 +173,4 @@
 [2025-01-24T16:08:46] refactor: decompose monolithic inference worker into actor pools
 [2025-01-24T17:45:39] feat: enhance token extraction pipeline
 [2025-01-24T17:36:24] docs: update architecture specifications for C2 node
+[2025-01-24T18:46:13] fix: eliminate memory leakage in WebSocket telemetry multiplexer
