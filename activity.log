@@ -172,3 +172,4 @@
 [2025-01-23T22:10:49] refactor: simplify Ray-casting virtual tripwire logic
 [2025-01-24T16:08:46] refactor: decompose monolithic inference worker into actor pools
 [2025-01-24T17:45:39] feat: enhance token extraction pipeline
+[2025-01-24T17:36:24] docs: update architecture specifications for C2 node
