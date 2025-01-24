@@ -175,3 +175,4 @@
 [2025-01-24T17:36:24] docs: update architecture specifications for C2 node
 [2025-01-24T18:46:13] fix: eliminate memory leakage in WebSocket telemetry multiplexer
 [2025-01-24T19:59:41] feat: implement adaptive frame-skipping in edge ReID worker
+[2025-01-24T22:40:01] test: add unit coverage for deterministic rollback boundaries
