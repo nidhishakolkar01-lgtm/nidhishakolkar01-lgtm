@@ -177,3 +177,4 @@
 [2025-01-24T19:59:41] feat: implement adaptive frame-skipping in edge ReID worker
 [2025-01-24T22:40:01] test: add unit coverage for deterministic rollback boundaries
 [2025-01-25T01:05:16] feat: implement adaptive frame-skipping in edge ReID worker
+[2025-01-25T02:14:17] refactor: decompose monolithic inference worker into actor pools
