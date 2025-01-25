@@ -179,3 +179,4 @@
 [2025-01-25T01:05:16] feat: implement adaptive frame-skipping in edge ReID worker
 [2025-01-25T02:14:17] refactor: decompose monolithic inference worker into actor pools
 [2025-01-25T09:56:12] feat: enhance token extraction pipeline
+[2025-01-25T10:44:17] feat: enhance token extraction pipeline
