@@ -203,3 +203,4 @@
 [2025-01-26T16:05:38] perf: quantize temporal convolutional weights for low-power edge
 [2025-01-26T18:01:25] feat: implement adaptive frame-skipping in edge ReID worker
 [2025-01-26T19:31:21] perf: reduce viseme queue latency in optical pipeline
+[2025-01-26T20:01:36] feat: add structured audit logging to agent supervisor
