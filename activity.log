@@ -204,3 +204,4 @@
 [2025-01-26T18:01:25] feat: implement adaptive frame-skipping in edge ReID worker
 [2025-01-26T19:31:21] perf: reduce viseme queue latency in optical pipeline
 [2025-01-26T20:01:36] feat: add structured audit logging to agent supervisor
+[2025-01-26T21:02:09] chore: prune stale execution graph edges
