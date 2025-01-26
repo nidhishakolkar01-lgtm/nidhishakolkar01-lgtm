@@ -195,3 +195,4 @@
 [2025-01-26T02:02:25] perf: accelerate CLAHE contrast preprocessing
 [2025-01-26T08:27:51] feat: implement adaptive frame-skipping in edge ReID worker
 [2025-01-26T09:37:39] feat: add structured audit logging to agent supervisor
+[2025-01-26T11:09:05] test: add unit coverage for deterministic rollback boundaries
