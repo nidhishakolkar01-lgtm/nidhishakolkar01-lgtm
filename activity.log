@@ -198,3 +198,4 @@
 [2025-01-26T11:09:05] test: add unit coverage for deterministic rollback boundaries
 [2025-01-26T12:50:51] test: add unit coverage for deterministic rollback boundaries
 [2025-01-26T13:22:15] chore: sync distributed node telemetry schema
+[2025-01-26T14:39:29] fix: handle state-drift mitigation on parallel branches
