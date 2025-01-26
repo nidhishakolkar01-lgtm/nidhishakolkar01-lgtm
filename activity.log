@@ -200,3 +200,4 @@
 [2025-01-26T13:22:15] chore: sync distributed node telemetry schema
 [2025-01-26T14:39:29] fix: handle state-drift mitigation on parallel branches
 [2025-01-26T15:40:04] feat: add telemetry metrics to heartbeat loop
+[2025-01-26T16:05:38] perf: quantize temporal convolutional weights for low-power edge
