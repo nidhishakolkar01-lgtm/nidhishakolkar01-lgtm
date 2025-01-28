@@ -209,3 +209,4 @@
 [2025-01-27T17:28:06] perf: quantize temporal convolutional weights for low-power edge
 [2025-01-28T14:28:05] perf: reduce viseme queue latency in optical pipeline
 [2025-01-28T15:22:45] test: add unit coverage for deterministic rollback boundaries
+[2025-01-28T16:11:35] test: benchmark inference throughput under concurrent load
