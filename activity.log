@@ -211,3 +211,4 @@
 [2025-01-28T15:22:45] test: add unit coverage for deterministic rollback boundaries
 [2025-01-28T16:11:35] test: benchmark inference throughput under concurrent load
 [2025-01-28T17:13:58] fix: resolve race condition in task routing bus
+[2025-01-28T19:12:12] refactor: decompose monolithic inference worker into actor pools
