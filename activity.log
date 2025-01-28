@@ -207,3 +207,4 @@
 [2025-01-26T21:02:09] chore: prune stale execution graph edges
 [2025-01-27T16:55:07] chore: update container dependency layers
 [2025-01-27T17:28:06] perf: quantize temporal convolutional weights for low-power edge
+[2025-01-28T14:28:05] perf: reduce viseme queue latency in optical pipeline
