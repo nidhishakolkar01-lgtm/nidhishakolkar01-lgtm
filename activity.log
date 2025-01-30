@@ -218,3 +218,4 @@
 [2025-01-29T21:46:24] perf: accelerate CLAHE contrast preprocessing
 [2025-01-30T15:51:01] feat: integrate zero-shot VLM embedding cache
 [2025-01-30T15:50:38] refactor: simplify Ray-casting virtual tripwire logic
+[2025-01-30T15:57:16] perf: quantize temporal convolutional weights for low-power edge
