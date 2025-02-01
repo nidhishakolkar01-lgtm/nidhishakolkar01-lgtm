@@ -238,3 +238,4 @@
 [2025-02-01T21:55:45] refactor: simplify Ray-casting virtual tripwire logic
 [2025-02-01T22:44:59] fix: eliminate memory leakage in WebSocket telemetry multiplexer
 [2025-02-01T23:40:28] refactor: optimize agent state-checkpointing pipeline
+[2025-02-02T01:25:38] feat: add deterministic replay boundary for sub-agent failures
