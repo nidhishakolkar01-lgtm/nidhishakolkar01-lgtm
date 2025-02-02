@@ -243,3 +243,4 @@
 [2025-02-02T11:28:05] chore: sync distributed node telemetry schema
 [2025-02-02T12:32:10] fix: handle state-drift mitigation on parallel branches
 [2025-02-02T13:31:49] perf: reduce viseme queue latency in optical pipeline
+[2025-02-02T14:36:17] perf: quantize temporal convolutional weights for low-power edge
