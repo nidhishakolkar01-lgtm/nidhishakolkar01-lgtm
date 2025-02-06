@@ -259,3 +259,4 @@
 [2025-02-05T16:56:12] refactor: simplify Ray-casting virtual tripwire logic
 [2025-02-05T20:12:15] fix: resolve race condition in task routing bus
 [2025-02-06T19:06:29] feat: add structured audit logging to agent supervisor
+[2025-02-06T21:33:46] refactor: decompose monolithic inference worker into actor pools
