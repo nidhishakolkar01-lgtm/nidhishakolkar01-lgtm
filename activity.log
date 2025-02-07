@@ -263,3 +263,4 @@
 [2025-02-07T17:48:24] feat: add deterministic replay boundary for sub-agent failures
 [2025-02-07T22:45:32] feat: integrate zero-shot VLM embedding cache
 [2025-02-08T01:14:13] feat: integrate zero-shot VLM embedding cache
+[2025-02-08T02:44:20] fix: handle state-drift mitigation on parallel branches
