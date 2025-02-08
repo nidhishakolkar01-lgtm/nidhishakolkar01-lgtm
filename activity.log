@@ -265,3 +265,4 @@
 [2025-02-08T01:14:13] feat: integrate zero-shot VLM embedding cache
 [2025-02-08T02:44:20] fix: handle state-drift mitigation on parallel branches
 [2025-02-08T08:25:32] chore: prune stale execution graph edges
+[2025-02-08T09:22:52] test: add unit coverage for deterministic rollback boundaries
