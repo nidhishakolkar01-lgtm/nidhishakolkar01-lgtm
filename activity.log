@@ -277,3 +277,4 @@
 [2025-02-08T19:53:09] refactor: decompose monolithic inference worker into actor pools
 [2025-02-08T20:48:54] fix: eliminate memory leakage in WebSocket telemetry multiplexer
 [2025-02-08T21:58:00] perf: accelerate CLAHE contrast preprocessing
+[2025-02-08T22:13:21] chore: prune stale execution graph edges
