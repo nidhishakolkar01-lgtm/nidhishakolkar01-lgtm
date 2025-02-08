@@ -275,3 +275,4 @@
 [2025-02-08T17:49:01] refactor: simplify Ray-casting virtual tripwire logic
 [2025-02-08T18:22:59] perf: optimize memory utilization in graph orchestrator
 [2025-02-08T19:53:09] refactor: decompose monolithic inference worker into actor pools
+[2025-02-08T20:48:54] fix: eliminate memory leakage in WebSocket telemetry multiplexer
