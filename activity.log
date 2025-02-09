@@ -292,3 +292,4 @@
 [2025-02-09T17:47:51] feat: add deterministic replay boundary for sub-agent failures
 [2025-02-09T18:48:15] perf: optimize memory utilization in graph orchestrator
 [2025-02-09T19:26:08] chore: prune stale execution graph edges
+[2025-02-09T20:09:03] docs: update architecture specifications for C2 node
