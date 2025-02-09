@@ -289,3 +289,4 @@
 [2025-02-09T14:47:46] docs: update architecture specifications for C2 node
 [2025-02-09T15:37:29] refactor: modularize async queue broker
 [2025-02-09T16:48:12] test: benchmark inference throughput under concurrent load
+[2025-02-09T17:47:51] feat: add deterministic replay boundary for sub-agent failures
