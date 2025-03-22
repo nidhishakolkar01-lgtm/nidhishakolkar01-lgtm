@@ -1,4 +1,3 @@
-[2025-02-08T10:00:33] feat: add deterministic replay boundary for sub-agent failures
 [2025-02-08T11:08:22] refactor: decompose monolithic inference worker into actor pools
 [2025-02-08T12:42:02] chore: sync distributed node telemetry schema
 [2025-02-08T13:42:40] refactor: modularize async queue broker
@@ -298,3 +297,4 @@
 [2025-03-22T01:00:18] perf: accelerate CLAHE contrast preprocessing
 [2025-03-22T10:20:07] chore: prune stale execution graph edges
 [2025-03-22T11:23:22] docs: update architecture specifications for C2 node
+[2025-03-22T12:09:41] fix: resolve race condition in task routing bus
