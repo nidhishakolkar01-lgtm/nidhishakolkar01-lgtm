@@ -1,4 +1,3 @@
-[2025-02-22T15:37:18] refactor: optimize agent state-checkpointing pipeline
 [2025-02-22T16:40:33] refactor: modularize async queue broker
 [2025-02-22T17:40:04] refactor: modularize async queue broker
 [2025-02-22T18:36:39] fix: resolve race condition in task routing bus
@@ -298,3 +297,4 @@
 [2025-04-05T10:53:55] refactor: optimize agent state-checkpointing pipeline
 [2025-04-05T11:26:09] fix: handle state-drift mitigation on parallel branches
 [2025-04-05T12:32:23] refactor: modularize async queue broker
+[2025-04-05T13:58:21] test: add unit coverage for deterministic rollback boundaries
