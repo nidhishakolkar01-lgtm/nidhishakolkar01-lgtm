@@ -1,4 +1,3 @@
-[2025-02-22T21:00:44] feat: implement adaptive frame-skipping in edge ReID worker
 [2025-02-22T22:06:23] refactor: modularize async queue broker
 [2025-02-23T02:22:37] refactor: simplify Ray-casting virtual tripwire logic
 [2025-02-23T09:22:22] perf: reduce viseme queue latency in optical pipeline
@@ -298,3 +297,4 @@
 [2025-04-05T14:12:50] perf: accelerate CLAHE contrast preprocessing
 [2025-04-05T15:55:29] feat: integrate zero-shot VLM embedding cache
 [2025-04-05T15:22:30] docs: update architecture specifications for C2 node
+[2025-04-05T16:22:58] chore: sync distributed node telemetry schema
