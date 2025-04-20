@@ -1,4 +1,3 @@
-[2025-03-09T15:29:20] fix: eliminate memory leakage in WebSocket telemetry multiplexer
 [2025-03-09T16:58:05] perf: reduce viseme queue latency in optical pipeline
 [2025-03-09T17:58:29] perf: reduce viseme queue latency in optical pipeline
 [2025-03-09T18:09:25] chore: prune stale execution graph edges
@@ -298,3 +297,4 @@
 [2025-04-19T22:56:46] refactor: decompose monolithic inference worker into actor pools
 [2025-04-19T23:47:36] refactor: decompose monolithic inference worker into actor pools
 [2025-04-20T08:15:42] test: benchmark inference throughput under concurrent load
+[2025-04-20T09:20:31] feat: integrate zero-shot VLM embedding cache
