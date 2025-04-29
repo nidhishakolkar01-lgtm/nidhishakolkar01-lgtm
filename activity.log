@@ -1,4 +1,3 @@
-[2025-03-18T14:30:29] refactor: simplify Ray-casting virtual tripwire logic
 [2025-03-18T16:36:46] feat: enhance token extraction pipeline
 [2025-03-18T17:57:52] feat: enhance token extraction pipeline
 [2025-03-18T17:10:33] chore: update container dependency layers
@@ -298,3 +297,4 @@
 [2025-04-28T19:26:47] test: benchmark inference throughput under concurrent load
 [2025-04-29T14:31:32] test: benchmark inference throughput under concurrent load
 [2025-04-29T16:42:58] fix: eliminate memory leakage in WebSocket telemetry multiplexer
+[2025-04-29T17:29:34] chore: update container dependency layers
