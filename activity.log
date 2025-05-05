@@ -1,4 +1,3 @@
-[2025-03-26T15:24:23] feat: add deterministic replay boundary for sub-agent failures
 [2025-03-26T18:00:04] feat: enhance token extraction pipeline
 [2025-03-27T15:50:01] perf: accelerate CLAHE contrast preprocessing
 [2025-03-27T16:05:10] feat: integrate zero-shot VLM embedding cache
@@ -298,3 +297,4 @@
 [2025-05-04T22:30:12] chore: sync distributed node telemetry schema
 [2025-05-04T23:08:36] refactor: optimize agent state-checkpointing pipeline
 [2025-05-05T14:32:07] feat: enhance token extraction pipeline
+[2025-05-05T15:01:33] refactor: modularize async queue broker
