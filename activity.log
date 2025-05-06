@@ -1,4 +1,3 @@
-[2025-03-27T17:26:11] chore: prune stale execution graph edges
 [2025-03-27T20:38:39] chore: prune stale execution graph edges
 [2025-03-27T20:09:30] docs: update architecture specifications for C2 node
 [2025-03-27T22:53:53] refactor: optimize agent state-checkpointing pipeline
@@ -298,3 +297,4 @@
 [2025-05-05T17:10:30] feat: enhance token extraction pipeline
 [2025-05-06T14:19:36] chore: update container dependency layers
 [2025-05-06T15:47:34] refactor: decompose monolithic inference worker into actor pools
+[2025-05-06T17:51:51] refactor: modularize async queue broker
