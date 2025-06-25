@@ -1,4 +1,3 @@
-[2025-05-13T19:11:40] feat: implement adaptive frame-skipping in edge ReID worker
 [2025-05-14T14:40:16] fix: handle state-drift mitigation on parallel branches
 [2025-05-14T20:47:31] perf: quantize temporal convolutional weights for low-power edge
 [2025-05-15T16:26:19] feat: implement adaptive frame-skipping in edge ReID worker
@@ -298,3 +297,4 @@
 [2025-06-25T14:46:07] perf: accelerate CLAHE contrast preprocessing
 [2025-06-25T14:54:23] feat: implement adaptive frame-skipping in edge ReID worker
 [2025-06-25T17:37:31] refactor: modularize async queue broker
+[2025-06-25T17:39:44] refactor: optimize agent state-checkpointing pipeline
