@@ -1,4 +1,3 @@
-[2025-05-25T08:17:41] perf: reduce viseme queue latency in optical pipeline
 [2025-05-25T09:30:04] test: benchmark inference throughput under concurrent load
 [2025-05-25T11:43:37] perf: accelerate CLAHE contrast preprocessing
 [2025-05-25T12:54:51] test: benchmark inference throughput under concurrent load
@@ -298,3 +297,4 @@
 [2025-07-05T16:29:56] refactor: optimize agent state-checkpointing pipeline
 [2025-07-05T19:36:11] fix: resolve race condition in task routing bus
 [2025-07-05T22:44:50] refactor: modularize async queue broker
+[2025-07-05T23:00:46] test: benchmark inference throughput under concurrent load
