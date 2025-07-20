@@ -1,4 +1,3 @@
-[2025-06-08T09:35:20] fix: handle state-drift mitigation on parallel branches
 [2025-06-08T12:09:05] perf: optimize memory utilization in graph orchestrator
 [2025-06-08T14:43:24] perf: quantize temporal convolutional weights for low-power edge
 [2025-06-08T16:50:28] refactor: modularize async queue broker
@@ -298,3 +297,4 @@
 [2025-07-20T10:54:14] feat: implement adaptive frame-skipping in edge ReID worker
 [2025-07-20T11:22:59] perf: quantize temporal convolutional weights for low-power edge
 [2025-07-20T12:17:12] perf: optimize memory utilization in graph orchestrator
+[2025-07-20T13:49:07] feat: add telemetry metrics to heartbeat loop
