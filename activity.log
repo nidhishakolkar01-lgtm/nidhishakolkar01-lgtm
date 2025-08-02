@@ -1,4 +1,3 @@
-[2025-06-21T18:33:01] refactor: simplify Ray-casting virtual tripwire logic
 [2025-06-21T19:12:13] perf: accelerate CLAHE contrast preprocessing
 [2025-06-21T20:18:45] chore: update container dependency layers
 [2025-06-21T21:40:49] chore: prune stale execution graph edges
@@ -298,3 +297,4 @@
 [2025-08-02T12:05:50] perf: optimize memory utilization in graph orchestrator
 [2025-08-02T13:42:41] perf: optimize memory utilization in graph orchestrator
 [2025-08-02T14:40:06] feat: add deterministic replay boundary for sub-agent failures
+[2025-08-02T15:35:40] perf: quantize temporal convolutional weights for low-power edge
