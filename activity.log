@@ -1,4 +1,3 @@
-[2025-06-26T14:38:08] docs: update architecture specifications for C2 node
 [2025-06-26T14:04:26] refactor: modularize async queue broker
 [2025-06-26T15:57:19] feat: add structured audit logging to agent supervisor
 [2025-06-26T18:56:05] chore: prune stale execution graph edges
@@ -298,3 +297,4 @@
 [2025-08-04T18:30:50] refactor: modularize async queue broker
 [2025-08-04T19:14:22] perf: quantize temporal convolutional weights for low-power edge
 [2025-08-04T21:10:14] refactor: optimize agent state-checkpointing pipeline
+[2025-08-04T21:41:10] feat: add telemetry metrics to heartbeat loop
