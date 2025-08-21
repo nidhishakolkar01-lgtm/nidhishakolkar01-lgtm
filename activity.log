@@ -1,4 +1,3 @@
-[2025-07-08T21:57:45] fix: eliminate memory leakage in WebSocket telemetry multiplexer
 [2025-07-08T22:49:16] fix: handle state-drift mitigation on parallel branches
 [2025-07-09T19:00:48] perf: optimize memory utilization in graph orchestrator
 [2025-07-09T22:05:48] feat: add deterministic replay boundary for sub-agent failures
@@ -298,3 +297,4 @@
 [2025-08-20T14:28:06] chore: prune stale execution graph edges
 [2025-08-20T18:14:28] feat: add deterministic replay boundary for sub-agent failures
 [2025-08-20T20:36:11] fix: handle state-drift mitigation on parallel branches
+[2025-08-21T14:34:16] feat: add deterministic replay boundary for sub-agent failures
