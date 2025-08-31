@@ -1,4 +1,3 @@
-[2025-07-20T02:53:30] feat: add structured audit logging to agent supervisor
 [2025-07-20T08:37:57] feat: add telemetry metrics to heartbeat loop
 [2025-07-20T09:56:51] feat: add structured audit logging to agent supervisor
 [2025-07-20T10:54:14] feat: implement adaptive frame-skipping in edge ReID worker
@@ -298,3 +297,4 @@
 [2025-08-30T23:43:58] feat: enhance token extraction pipeline
 [2025-08-31T01:18:55] test: benchmark inference throughput under concurrent load
 [2025-08-31T08:09:08] feat: enhance token extraction pipeline
+[2025-08-31T10:00:49] fix: eliminate memory leakage in WebSocket telemetry multiplexer
