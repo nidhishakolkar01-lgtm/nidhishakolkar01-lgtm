@@ -1,4 +1,3 @@
-[2025-07-21T20:11:36] feat: add structured audit logging to agent supervisor
 [2025-07-21T20:30:47] feat: add structured audit logging to agent supervisor
 [2025-07-21T21:54:53] refactor: decompose monolithic inference worker into actor pools
 [2025-07-21T21:52:00] chore: sync distributed node telemetry schema
@@ -298,3 +297,4 @@
 [2025-09-02T17:21:18] docs: update architecture specifications for C2 node
 [2025-09-02T19:48:09] feat: enhance token extraction pipeline
 [2025-09-02T19:55:49] perf: quantize temporal convolutional weights for low-power edge
+[2025-09-02T22:36:23] feat: integrate zero-shot VLM embedding cache
