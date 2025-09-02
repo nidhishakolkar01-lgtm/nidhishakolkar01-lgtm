@@ -1,4 +1,3 @@
-[2025-07-21T18:40:40] test: add unit coverage for deterministic rollback boundaries
 [2025-07-21T19:02:22] refactor: optimize agent state-checkpointing pipeline
 [2025-07-21T20:11:36] feat: add structured audit logging to agent supervisor
 [2025-07-21T20:30:47] feat: add structured audit logging to agent supervisor
@@ -298,3 +297,4 @@
 [2025-09-01T20:30:12] chore: update container dependency layers
 [2025-09-02T15:07:45] refactor: modularize async queue broker
 [2025-09-02T17:21:18] docs: update architecture specifications for C2 node
+[2025-09-02T19:48:09] feat: enhance token extraction pipeline
