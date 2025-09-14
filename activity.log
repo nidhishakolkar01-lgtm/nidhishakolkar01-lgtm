@@ -1,4 +1,3 @@
-[2025-08-02T12:05:50] perf: optimize memory utilization in graph orchestrator
 [2025-08-02T13:42:41] perf: optimize memory utilization in graph orchestrator
 [2025-08-02T14:40:06] feat: add deterministic replay boundary for sub-agent failures
 [2025-08-02T15:35:40] perf: quantize temporal convolutional weights for low-power edge
@@ -298,3 +297,4 @@
 [2025-09-14T13:56:38] feat: add telemetry metrics to heartbeat loop
 [2025-09-14T14:29:21] fix: handle state-drift mitigation on parallel branches
 [2025-09-14T15:14:59] test: add unit coverage for deterministic rollback boundaries
+[2025-09-14T16:52:37] chore: prune stale execution graph edges
