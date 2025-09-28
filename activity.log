@@ -1,4 +1,3 @@
-[2025-08-17T08:06:18] refactor: simplify Ray-casting virtual tripwire logic
 [2025-08-17T09:54:43] perf: accelerate CLAHE contrast preprocessing
 [2025-08-17T11:47:43] refactor: optimize agent state-checkpointing pipeline
 [2025-08-17T12:24:41] chore: prune stale execution graph edges
@@ -298,3 +297,4 @@
 [2025-09-28T15:23:23] feat: integrate zero-shot VLM embedding cache
 [2025-09-28T16:58:34] perf: accelerate CLAHE contrast preprocessing
 [2025-09-28T17:43:53] docs: update architecture specifications for C2 node
+[2025-09-28T18:28:59] feat: add deterministic replay boundary for sub-agent failures
