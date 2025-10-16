@@ -1,4 +1,3 @@
-[2025-09-05T18:57:55] docs: update architecture specifications for C2 node
 [2025-09-05T18:36:35] chore: update container dependency layers
 [2025-09-05T19:00:44] perf: optimize memory utilization in graph orchestrator
 [2025-09-06T02:47:41] feat: implement adaptive frame-skipping in edge ReID worker
@@ -298,3 +297,4 @@
 [2025-10-15T20:14:36] chore: sync distributed node telemetry schema
 [2025-10-16T14:00:27] fix: eliminate memory leakage in WebSocket telemetry multiplexer
 [2025-10-16T14:04:20] fix: handle state-drift mitigation on parallel branches
+[2025-10-16T15:34:43] refactor: simplify Ray-casting virtual tripwire logic
