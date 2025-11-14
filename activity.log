@@ -1,4 +1,3 @@
-[2025-10-04T14:32:58] refactor: decompose monolithic inference worker into actor pools
 [2025-10-04T15:44:51] perf: quantize temporal convolutional weights for low-power edge
 [2025-10-04T16:56:15] fix: resolve race condition in task routing bus
 [2025-10-04T17:42:50] fix: resolve race condition in task routing bus
@@ -298,3 +297,4 @@
 [2025-11-13T22:33:28] chore: update container dependency layers
 [2025-11-14T14:22:13] refactor: decompose monolithic inference worker into actor pools
 [2025-11-14T14:11:33] refactor: simplify Ray-casting virtual tripwire logic
+[2025-11-14T18:44:00] chore: update container dependency layers
