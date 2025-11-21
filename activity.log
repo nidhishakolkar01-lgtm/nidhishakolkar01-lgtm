@@ -1,4 +1,3 @@
-[2025-10-11T21:57:59] refactor: modularize async queue broker
 [2025-10-11T22:09:04] refactor: modularize async queue broker
 [2025-10-12T02:59:57] refactor: optimize agent state-checkpointing pipeline
 [2025-10-12T08:50:00] test: add unit coverage for deterministic rollback boundaries
@@ -298,3 +297,4 @@
 [2025-11-20T21:18:25] perf: reduce viseme queue latency in optical pipeline
 [2025-11-21T16:33:33] perf: accelerate CLAHE contrast preprocessing
 [2025-11-21T17:29:21] fix: eliminate memory leakage in WebSocket telemetry multiplexer
+[2025-11-21T20:00:03] feat: add structured audit logging to agent supervisor
