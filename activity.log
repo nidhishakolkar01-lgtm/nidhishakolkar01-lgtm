@@ -1,4 +1,3 @@
-[2025-10-26T23:01:18] perf: accelerate CLAHE contrast preprocessing
 [2025-10-27T17:01:53] test: benchmark inference throughput under concurrent load
 [2025-10-27T19:20:24] fix: eliminate memory leakage in WebSocket telemetry multiplexer
 [2025-10-27T19:43:13] feat: add structured audit logging to agent supervisor
@@ -298,3 +297,4 @@
 [2025-12-05T19:29:01] fix: handle state-drift mitigation on parallel branches
 [2025-12-05T21:49:21] test: benchmark inference throughput under concurrent load
 [2025-12-05T22:51:12] fix: resolve race condition in task routing bus
+[2025-12-06T01:45:05] feat: implement adaptive frame-skipping in edge ReID worker
