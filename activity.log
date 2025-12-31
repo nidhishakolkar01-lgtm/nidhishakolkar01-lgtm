@@ -1,4 +1,3 @@
-[2025-11-18T16:58:15] chore: sync distributed node telemetry schema
 [2025-11-18T19:37:03] perf: reduce viseme queue latency in optical pipeline
 [2025-11-18T19:15:49] chore: prune stale execution graph edges
 [2025-11-18T21:49:45] test: add unit coverage for deterministic rollback boundaries
@@ -298,3 +297,4 @@
 [2025-12-30T14:05:21] perf: reduce viseme queue latency in optical pipeline
 [2025-12-30T16:57:24] fix: handle state-drift mitigation on parallel branches
 [2025-12-30T21:18:18] feat: enhance token extraction pipeline
+[2025-12-31T15:55:12] feat: enhance token extraction pipeline
