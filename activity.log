@@ -1,4 +1,3 @@
-[2025-12-20T02:33:24] perf: quantize temporal convolutional weights for low-power edge
 [2025-12-20T08:23:15] fix: eliminate memory leakage in WebSocket telemetry multiplexer
 [2025-12-20T09:04:01] chore: prune stale execution graph edges
 [2025-12-20T10:46:57] feat: add deterministic replay boundary for sub-agent failures
@@ -298,3 +297,4 @@
 [2026-01-26T17:24:50] fix: eliminate memory leakage in WebSocket telemetry multiplexer
 [2026-01-26T18:23:58] feat: integrate zero-shot VLM embedding cache
 [2026-01-26T18:20:46] refactor: modularize async queue broker
+[2026-01-26T19:12:47] chore: sync distributed node telemetry schema
