@@ -1,4 +1,3 @@
-[2025-12-30T14:05:21] perf: reduce viseme queue latency in optical pipeline
 [2025-12-30T16:57:24] fix: handle state-drift mitigation on parallel branches
 [2025-12-30T21:18:18] feat: enhance token extraction pipeline
 [2025-12-31T15:55:12] feat: enhance token extraction pipeline
@@ -298,3 +297,4 @@
 [2026-02-07T12:17:00] chore: prune stale execution graph edges
 [2026-02-07T13:00:39] test: add unit coverage for deterministic rollback boundaries
 [2026-02-07T14:24:20] fix: handle state-drift mitigation on parallel branches
+[2026-02-07T15:31:58] chore: update container dependency layers
