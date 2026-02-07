@@ -1,4 +1,3 @@
-[2025-12-30T21:18:18] feat: enhance token extraction pipeline
 [2025-12-31T15:55:12] feat: enhance token extraction pipeline
 [2025-12-31T15:51:43] fix: resolve race condition in task routing bus
 [2025-12-31T15:16:39] feat: integrate zero-shot VLM embedding cache
@@ -298,3 +297,4 @@
 [2026-02-07T14:24:20] fix: handle state-drift mitigation on parallel branches
 [2026-02-07T15:31:58] chore: update container dependency layers
 [2026-02-07T17:42:49] feat: enhance token extraction pipeline
+[2026-02-07T18:59:51] chore: prune stale execution graph edges
