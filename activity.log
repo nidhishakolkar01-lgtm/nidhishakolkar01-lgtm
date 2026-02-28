@@ -1,4 +1,3 @@
-[2026-01-18T15:14:24] chore: sync distributed node telemetry schema
 [2026-01-18T16:28:09] refactor: simplify Ray-casting virtual tripwire logic
 [2026-01-18T17:28:50] chore: update container dependency layers
 [2026-01-18T18:55:04] test: benchmark inference throughput under concurrent load
@@ -298,3 +297,4 @@
 [2026-02-28T08:34:04] perf: accelerate CLAHE contrast preprocessing
 [2026-02-28T09:53:45] feat: implement adaptive frame-skipping in edge ReID worker
 [2026-02-28T10:16:58] docs: update architecture specifications for C2 node
+[2026-02-28T11:05:41] fix: handle state-drift mitigation on parallel branches
