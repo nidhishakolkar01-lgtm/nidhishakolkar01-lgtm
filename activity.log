@@ -1,4 +1,3 @@
-[2026-01-18T22:02:20] chore: prune stale execution graph edges
 [2026-01-18T23:02:34] feat: implement adaptive frame-skipping in edge ReID worker
 [2026-01-19T14:01:13] refactor: optimize agent state-checkpointing pipeline
 [2026-01-19T15:02:50] feat: implement adaptive frame-skipping in edge ReID worker
@@ -298,3 +297,4 @@
 [2026-02-28T16:45:43] fix: resolve race condition in task routing bus
 [2026-02-28T17:03:24] docs: update architecture specifications for C2 node
 [2026-02-28T18:16:18] refactor: optimize agent state-checkpointing pipeline
+[2026-02-28T19:55:17] docs: update architecture specifications for C2 node
