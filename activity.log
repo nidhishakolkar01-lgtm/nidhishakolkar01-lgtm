@@ -1,4 +1,3 @@
-[2026-02-07T18:59:51] chore: prune stale execution graph edges
 [2026-02-07T20:21:34] fix: handle state-drift mitigation on parallel branches
 [2026-02-07T21:58:32] refactor: optimize agent state-checkpointing pipeline
 [2026-02-07T22:20:10] fix: handle state-drift mitigation on parallel branches
@@ -298,3 +297,4 @@
 [2026-03-17T16:03:14] fix: eliminate memory leakage in WebSocket telemetry multiplexer
 [2026-03-17T16:35:22] feat: integrate zero-shot VLM embedding cache
 [2026-03-17T16:30:16] docs: update architecture specifications for C2 node
+[2026-03-17T18:28:53] test: benchmark inference throughput under concurrent load
