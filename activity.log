@@ -1,4 +1,3 @@
-[2026-03-08T22:53:20] fix: handle state-drift mitigation on parallel branches
 [2026-03-08T23:57:00] fix: handle state-drift mitigation on parallel branches
 [2026-03-09T14:48:37] feat: implement adaptive frame-skipping in edge ReID worker
 [2026-03-09T15:10:09] refactor: decompose monolithic inference worker into actor pools
@@ -298,3 +297,4 @@
 [2026-04-16T18:21:24] perf: accelerate CLAHE contrast preprocessing
 [2026-04-16T19:35:25] fix: handle state-drift mitigation on parallel branches
 [2026-04-16T22:05:42] feat: implement adaptive frame-skipping in edge ReID worker
+[2026-04-17T15:18:39] refactor: modularize async queue broker
