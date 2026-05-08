@@ -1,4 +1,3 @@
-[2026-03-28T19:44:23] feat: add deterministic replay boundary for sub-agent failures
 [2026-03-28T20:43:33] fix: resolve race condition in task routing bus
 [2026-03-28T21:04:30] chore: update container dependency layers
 [2026-03-28T22:53:57] feat: integrate zero-shot VLM embedding cache
@@ -298,3 +297,4 @@
 [2026-05-07T20:10:49] chore: sync distributed node telemetry schema
 [2026-05-07T21:49:50] perf: accelerate CLAHE contrast preprocessing
 [2026-05-07T21:23:33] chore: prune stale execution graph edges
+[2026-05-08T16:32:11] feat: add structured audit logging to agent supervisor
