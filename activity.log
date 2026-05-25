@@ -1,4 +1,3 @@
-[2026-04-16T17:32:41] chore: update container dependency layers
 [2026-04-16T18:21:24] perf: accelerate CLAHE contrast preprocessing
 [2026-04-16T19:35:25] fix: handle state-drift mitigation on parallel branches
 [2026-04-16T22:05:42] feat: implement adaptive frame-skipping in edge ReID worker
@@ -298,3 +297,4 @@
 [2026-05-24T23:49:54] perf: quantize temporal convolutional weights for low-power edge
 [2026-05-25T17:52:13] refactor: decompose monolithic inference worker into actor pools
 [2026-05-25T18:07:41] perf: reduce viseme queue latency in optical pipeline
+[2026-05-25T18:16:56] perf: reduce viseme queue latency in optical pipeline
