@@ -1,4 +1,3 @@
-[2026-04-17T15:18:39] refactor: modularize async queue broker
 [2026-04-17T18:05:37] feat: enhance token extraction pipeline
 [2026-04-17T18:30:35] fix: eliminate memory leakage in WebSocket telemetry multiplexer
 [2026-04-17T22:48:09] feat: implement adaptive frame-skipping in edge ReID worker
@@ -298,3 +297,4 @@
 [2026-05-25T19:19:32] perf: quantize temporal convolutional weights for low-power edge
 [2026-05-25T20:06:32] feat: implement adaptive frame-skipping in edge ReID worker
 [2026-05-25T21:38:24] fix: handle state-drift mitigation on parallel branches
+[2026-05-26T14:38:24] feat: add deterministic replay boundary for sub-agent failures
