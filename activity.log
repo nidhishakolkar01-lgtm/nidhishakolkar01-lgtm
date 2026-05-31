@@ -1,4 +1,3 @@
-[2026-04-22T18:11:08] test: add unit coverage for deterministic rollback boundaries
 [2026-04-22T20:08:04] refactor: optimize agent state-checkpointing pipeline
 [2026-04-22T22:46:24] feat: enhance token extraction pipeline
 [2026-04-23T14:46:21] feat: integrate zero-shot VLM embedding cache
@@ -298,3 +297,4 @@
 [2026-05-31T13:50:02] feat: implement adaptive frame-skipping in edge ReID worker
 [2026-05-31T15:54:33] refactor: modularize async queue broker
 [2026-05-31T16:25:18] test: benchmark inference throughput under concurrent load
+[2026-05-31T17:43:30] perf: accelerate CLAHE contrast preprocessing
