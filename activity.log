@@ -1,4 +1,3 @@
-[2026-04-26T18:13:06] feat: add telemetry metrics to heartbeat loop
 [2026-04-26T19:15:51] chore: update container dependency layers
 [2026-04-26T20:26:45] test: benchmark inference throughput under concurrent load
 [2026-04-26T21:43:30] feat: enhance token extraction pipeline
@@ -298,3 +297,4 @@
 [2026-06-06T17:11:53] perf: accelerate CLAHE contrast preprocessing
 [2026-06-06T18:05:50] fix: eliminate memory leakage in WebSocket telemetry multiplexer
 [2026-06-06T20:23:56] refactor: simplify Ray-casting virtual tripwire logic
+[2026-06-06T23:32:26] chore: prune stale execution graph edges
