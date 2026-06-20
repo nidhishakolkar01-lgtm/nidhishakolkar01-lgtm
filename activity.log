@@ -1,4 +1,3 @@
-[2026-05-08T17:21:21] refactor: simplify Ray-casting virtual tripwire logic
 [2026-05-08T18:45:01] docs: update architecture specifications for C2 node
 [2026-05-08T21:09:30] fix: eliminate memory leakage in WebSocket telemetry multiplexer
 [2026-05-09T01:50:02] feat: add telemetry metrics to heartbeat loop
@@ -298,3 +297,4 @@
 [2026-06-20T02:54:05] feat: enhance token extraction pipeline
 [2026-06-20T08:16:58] docs: update architecture specifications for C2 node
 [2026-06-20T09:55:50] feat: add telemetry metrics to heartbeat loop
+[2026-06-20T10:51:26] test: benchmark inference throughput under concurrent load
