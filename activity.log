@@ -1,4 +1,3 @@
-[2026-05-18T15:36:07] perf: reduce viseme queue latency in optical pipeline
 [2026-05-18T15:17:25] docs: update architecture specifications for C2 node
 [2026-05-18T17:40:30] docs: update architecture specifications for C2 node
 [2026-05-18T19:28:17] fix: eliminate memory leakage in WebSocket telemetry multiplexer
@@ -298,3 +297,4 @@
 [2026-06-30T15:16:43] fix: handle state-drift mitigation on parallel branches
 [2026-06-30T16:18:16] feat: add structured audit logging to agent supervisor
 [2026-07-01T14:20:40] feat: integrate zero-shot VLM embedding cache
+[2026-07-01T14:22:17] feat: add structured audit logging to agent supervisor
