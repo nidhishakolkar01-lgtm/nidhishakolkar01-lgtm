@@ -1,4 +1,3 @@
-[2026-05-23T20:23:13] fix: handle state-drift mitigation on parallel branches
 [2026-05-23T21:50:51] test: add unit coverage for deterministic rollback boundaries
 [2026-05-23T22:37:48] refactor: decompose monolithic inference worker into actor pools
 [2026-05-24T02:19:25] refactor: simplify Ray-casting virtual tripwire logic
@@ -298,3 +297,4 @@
 [2026-07-05T12:52:02] fix: eliminate memory leakage in WebSocket telemetry multiplexer
 [2026-07-05T13:51:47] feat: implement adaptive frame-skipping in edge ReID worker
 [2026-07-05T14:39:06] test: benchmark inference throughput under concurrent load
+[2026-07-05T17:49:31] refactor: decompose monolithic inference worker into actor pools
