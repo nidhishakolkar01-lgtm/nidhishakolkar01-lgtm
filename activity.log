@@ -1,4 +1,3 @@
-[2026-06-07T14:53:46] perf: reduce viseme queue latency in optical pipeline
 [2026-06-07T15:27:40] fix: eliminate memory leakage in WebSocket telemetry multiplexer
 [2026-06-07T16:59:20] fix: handle state-drift mitigation on parallel branches
 [2026-06-07T18:50:10] fix: resolve race condition in task routing bus
@@ -298,3 +297,4 @@
 [2026-07-19T08:36:37] perf: reduce viseme queue latency in optical pipeline
 [2026-07-19T12:11:11] refactor: optimize agent state-checkpointing pipeline
 [2026-07-19T13:53:34] test: add unit coverage for deterministic rollback boundaries
+[2026-07-19T14:58:00] chore: prune stale execution graph edges
