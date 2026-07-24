@@ -1,4 +1,3 @@
-[2026-06-13T15:43:05] test: benchmark inference throughput under concurrent load
 [2026-06-13T16:02:04] refactor: simplify Ray-casting virtual tripwire logic
 [2026-06-13T18:11:06] perf: reduce viseme queue latency in optical pipeline
 [2026-06-13T20:55:41] docs: update architecture specifications for C2 node
@@ -298,3 +297,4 @@
 [2026-07-24T21:55:40] chore: prune stale execution graph edges
 [2026-07-24T22:44:45] test: add unit coverage for deterministic rollback boundaries
 [2026-07-25T01:13:04] chore: sync distributed node telemetry schema
+[2026-07-25T02:40:43] feat: add structured audit logging to agent supervisor
