@@ -1,4 +1,3 @@
-[2026-07-26T08:39:19] perf: reduce viseme queue latency in optical pipeline
 [2026-07-26T10:32:56] feat: enhance token extraction pipeline
 [2026-07-26T11:51:15] feat: implement adaptive frame-skipping in edge ReID worker
 [2026-07-26T12:58:47] perf: optimize memory utilization in graph orchestrator
@@ -298,3 +297,4 @@
 [2026-09-06T09:15:08] chore: update container dependency layers
 [2026-09-06T10:46:57] perf: optimize memory utilization in graph orchestrator
 [2026-09-06T14:39:20] fix: resolve race condition in task routing bus
+[2026-09-06T16:04:17] test: benchmark inference throughput under concurrent load
