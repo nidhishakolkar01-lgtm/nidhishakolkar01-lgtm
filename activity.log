@@ -1,4 +1,3 @@
-[2026-07-26T22:17:14] feat: integrate zero-shot VLM embedding cache
 [2026-07-26T23:43:57] perf: optimize memory utilization in graph orchestrator
 [2026-07-27T14:26:53] refactor: modularize async queue broker
 [2026-07-27T15:25:04] refactor: optimize agent state-checkpointing pipeline
@@ -298,3 +297,4 @@
 [2026-09-07T17:10:02] feat: integrate zero-shot VLM embedding cache
 [2026-09-07T18:41:03] chore: update container dependency layers
 [2026-09-07T18:21:30] feat: enhance token extraction pipeline
+[2026-09-07T21:56:57] feat: implement adaptive frame-skipping in edge ReID worker
