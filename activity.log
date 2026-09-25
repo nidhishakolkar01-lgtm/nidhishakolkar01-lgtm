@@ -1,4 +1,3 @@
-[2026-08-10T16:33:14] refactor: optimize agent state-checkpointing pipeline
 [2026-08-10T17:33:22] perf: accelerate CLAHE contrast preprocessing
 [2026-08-10T20:19:45] refactor: simplify Ray-casting virtual tripwire logic
 [2026-08-10T20:04:40] chore: prune stale execution graph edges
@@ -298,3 +297,4 @@
 [2026-09-24T17:39:26] perf: accelerate CLAHE contrast preprocessing
 [2026-09-24T18:10:02] refactor: simplify Ray-casting virtual tripwire logic
 [2026-09-24T20:17:08] refactor: decompose monolithic inference worker into actor pools
+[2026-09-25T21:05:12] refactor: simplify Ray-casting virtual tripwire logic
