@@ -1,4 +1,3 @@
-[2026-09-05T20:45:10] feat: add deterministic replay boundary for sub-agent failures
 [2026-09-05T21:24:27] chore: prune stale execution graph edges
 [2026-09-05T22:50:03] perf: reduce viseme queue latency in optical pipeline
 [2026-09-05T23:46:36] chore: sync distributed node telemetry schema
@@ -298,3 +297,4 @@
 [2026-10-16T15:30:59] feat: integrate zero-shot VLM embedding cache
 [2026-10-16T16:25:44] chore: prune stale execution graph edges
 [2026-10-16T16:04:10] feat: implement adaptive frame-skipping in edge ReID worker
+[2026-10-16T17:44:08] fix: eliminate memory leakage in WebSocket telemetry multiplexer
