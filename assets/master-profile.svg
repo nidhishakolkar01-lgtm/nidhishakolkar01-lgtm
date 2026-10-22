@@ -1,0 +1,350 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1180" width="850" height="1180" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="gold-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080705" />
+      <stop offset="30%" stop-color="#120e08" />
+      <stop offset="70%" stop-color="#16120a" />
+      <stop offset="100%" stop-color="#090805" />
+    </linearGradient>
+
+    <!-- Metallic Gold Perimeter Border -->
+    <linearGradient id="gold-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.95" />
+      <stop offset="25%" stop-color="#fef08a" stop-opacity="1" />
+      <stop offset="50%" stop-color="#b45309" stop-opacity="0.8" />
+      <stop offset="75%" stop-color="#fde047" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#92400e" stop-opacity="0.85" />
+    </linearGradient>
+
+    <!-- Gold Heading Gradient -->
+    <linearGradient id="gold-text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4af37" />
+      <stop offset="25%" stop-color="#fef08a" />
+      <stop offset="70%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d4af37" />
+    </linearGradient>
+
+    <!-- Tile Surface -->
+    <linearGradient id="tile-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a140b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#110e08" stop-opacity="0.95" />
+    </linearGradient>
+
+    <linearGradient id="tile-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#78350f" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Ambient Glows -->
+    <radialGradient id="ambient-top" cx="15%" cy="10%" r="50%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.15" />
+      <stop offset="60%" stop-color="#f59e0b" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="ambient-bottom" cx="85%" cy="90%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.12" />
+      <stop offset="60%" stop-color="#b45309" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="gold-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .gold-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .gold-mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+  </style>
+
+  <!-- Outer Card Frame -->
+  <rect x="1" y="1" width="848" height="1178" rx="16" fill="url(#gold-bg)" stroke="url(#gold-border)" stroke-width="2" />
+
+  <!-- Ambient Flares -->
+  <rect x="1" y="1" width="848" height="1178" rx="16" fill="url(#ambient-top)" />
+  <rect x="1" y="1" width="848" height="1178" rx="16" fill="url(#ambient-bottom)" />
+
+  <!-- ================= SECTION 1: HEADER & LEADERSHIP ================= -->
+  <g transform="translate(42, 42)">
+    <!-- Status Chip -->
+    <rect x="0" y="0" width="315" height="26" rx="13" fill="#1b1509" stroke="#d4af37" stroke-width="1.2" stroke-opacity="0.6" />
+    <circle cx="14" cy="13" r="4" fill="#fde047" filter="url(#gold-glow)" />
+    <text x="28" y="17" class="gold-mono" font-size="11" font-weight="700" fill="#fef08a" letter-spacing="1.2">AI &amp; ML ADVANCED RESEARCH LAB</text>
+
+    <!-- Monogram Seal -->
+    <g transform="translate(720, 55)">
+      <circle cx="0" cy="0" r="46" fill="#140f07" stroke="url(#gold-border)" stroke-width="1.8" />
+      <circle cx="0" cy="0" r="40" stroke="#d4af37" stroke-dasharray="3 3" stroke-width="1" stroke-opacity="0.5" />
+      <text x="0" y="11" text-anchor="middle" class="gold-sans" font-size="26" font-weight="900" fill="url(#gold-text)" letter-spacing="2">NA</text>
+      <text x="0" y="26" text-anchor="middle" class="gold-mono" font-size="8" font-weight="700" fill="#d4af37" letter-spacing="1">RESEARCH</text>
+    </g>
+
+    <!-- Large Bold Name -->
+    <text x="0" y="68" class="gold-sans" font-size="42" font-weight="900" fill="url(#gold-text)" letter-spacing="0.5">
+      NIDHISH AKOLKAR
+    </text>
+    <text x="0" y="96" class="gold-sans" font-size="16" font-weight="700" fill="#fde047" letter-spacing="0.8">
+      FOUNDING LEAD &amp; PRESIDENT <tspan fill="#85641b">|</tspan> AI SYSTEMS ENGINEER
+    </text>
+    <text x="0" y="118" class="gold-mono" font-size="13" font-weight="500" fill="#c9b98b">
+      Autonomous Multi-Agent Runtimes // Tactical Edge CV // Distributed Orchestration
+    </text>
+  </g>
+
+  <!-- ================= SECTION 2: 4 LARGE GOLD METRIC TILES ================= -->
+  <g transform="translate(42, 195)">
+    <!-- Tile 1: Total Contributions -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="182" height="92" rx="10" fill="url(#tile-bg)" stroke="url(#tile-border)" stroke-width="1.4" />
+      <text x="16" y="24" class="gold-mono" font-size="10.5" font-weight="700" fill="#c9b98b" letter-spacing="0.8">CONTRIBUTIONS</text>
+      <text x="16" y="58" class="gold-mono" font-size="28" font-weight="900" fill="#fef08a">5,290</text>
+      <text x="16" y="78" class="gold-sans" font-size="11" font-weight="600" fill="#d4af37">2026: 3,101 <tspan fill="#785e1d">|</tspan> 2025: 2,189</text>
+    </g>
+
+    <!-- Tile 2: Active Cadence -->
+    <g transform="translate(195, 0)">
+      <rect x="0" y="0" width="182" height="92" rx="10" fill="url(#tile-bg)" stroke="url(#tile-border)" stroke-width="1.4" />
+      <text x="16" y="24" class="gold-mono" font-size="10.5" font-weight="700" fill="#c9b98b" letter-spacing="0.8">ACTIVE CADENCE</text>
+      <text x="16" y="58" class="gold-mono" font-size="28" font-weight="900" fill="#fde047">662 <tspan font-size="16" font-weight="700">DAYS</tspan></text>
+      <text x="16" y="78" class="gold-sans" font-size="11.5" font-weight="600" fill="#d4af37">100% Unbroken Streak</text>
+    </g>
+
+    <!-- Tile 3: Hackathons -->
+    <g transform="translate(390, 0)">
+      <rect x="0" y="0" width="182" height="92" rx="10" fill="url(#tile-bg)" stroke="url(#tile-border)" stroke-width="1.4" />
+      <text x="16" y="24" class="gold-mono" font-size="10.5" font-weight="700" fill="#c9b98b" letter-spacing="0.8">NATIONAL HONORS</text>
+      <text x="16" y="58" class="gold-mono" font-size="26" font-weight="900" fill="#fef08a">3x WINNER</text>
+      <text x="16" y="78" class="gold-sans" font-size="11.5" font-weight="600" fill="#d4af37">National Hackathons</text>
+    </g>
+
+    <!-- Tile 4: NASA OSDR -->
+    <g transform="translate(585, 0)">
+      <rect x="0" y="0" width="181" height="92" rx="10" fill="url(#tile-bg)" stroke="url(#tile-border)" stroke-width="1.4" />
+      <text x="16" y="24" class="gold-mono" font-size="10.5" font-weight="700" fill="#c9b98b" letter-spacing="0.8">RESEARCH GROUP</text>
+      <text x="16" y="58" class="gold-mono" font-size="22" font-weight="900" fill="#fef08a">NASA OSDR</text>
+      <text x="16" y="78" class="gold-sans" font-size="11.5" font-weight="600" fill="#d4af37">AWG Working Member</text>
+    </g>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="42" y1="315" x2="808" y2="315" stroke="url(#gold-border)" stroke-width="1" stroke-opacity="0.35" />
+
+  <!-- ================= SECTION 3: 6 FLAGSHIP SYSTEMS (MIRRORING PINNED REPOS) ================= -->
+  <g transform="translate(42, 340)">
+    <text x="0" y="16" class="gold-mono" font-size="14" font-weight="700" fill="#fde047" letter-spacing="1.5">⚡ FLAGSHIP SYSTEMS &amp; ARCHITECTURES</text>
+
+    <!-- Row 1: Jarvis-Architecture & DeepVani -->
+    <!-- System 1: Jarvis-Architecture -->
+    <g transform="translate(0, 36)">
+      <rect x="0" y="0" width="375" height="120" rx="10" fill="url(#tile-bg)" stroke="url(#tile-border)" stroke-width="1.3" />
+      <text x="18" y="26" class="gold-sans" font-size="17" font-weight="800" fill="#fef08a">Jarvis-Architecture</text>
+      <text x="18" y="48" class="gold-sans" font-size="12.5" font-weight="500" fill="#f0e6c8">
+        Modular multi-agent AI operating platform with self-healing
+      </text>
+      <text x="18" y="66" class="gold-sans" font-size="12.5" font-weight="500" fill="#f0e6c8">
+        execution graphs &amp; deterministic state-rollback boundaries.
+      </text>
+      <g transform="translate(18, 84)">
+        <rect x="0" y="0" width="56" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="28" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">Python</text>
+
+        <rect x="62" y="0" width="80" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="102" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">TypeScript</text>
+
+        <rect x="148" y="0" width="48" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="172" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">Groq</text>
+
+        <rect x="202" y="0" width="46" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="225" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">GCP</text>
+      </g>
+    </g>
+
+    <!-- System 2: DeepVani -->
+    <g transform="translate(391, 36)">
+      <rect x="0" y="0" width="375" height="120" rx="10" fill="url(#tile-bg)" stroke="url(#tile-border)" stroke-width="1.3" />
+      <text x="18" y="26" class="gold-sans" font-size="17" font-weight="800" fill="#fef08a">DeepVani</text>
+      <text x="18" y="48" class="gold-sans" font-size="12.5" font-weight="500" fill="#f0e6c8">
+        Silent speech decoder converting real-time lip kinematics
+      </text>
+      <text x="18" y="66" class="gold-sans" font-size="12.5" font-weight="500" fill="#f0e6c8">
+        (468 landmarks) to natural audio via TCN classifiers.
+      </text>
+      <g transform="translate(18, 84)">
+        <rect x="0" y="0" width="76" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="38" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">MediaPipe</text>
+
+        <rect x="82" y="0" width="42" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="103" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">TCN</text>
+
+        <rect x="130" y="0" width="70" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="165" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">Edge-TTS</text>
+
+        <rect x="206" y="0" width="60" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="236" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">PyTorch</text>
+      </g>
+    </g>
+
+    <!-- Row 2: TRINETRA-C2 & ASTRA-C4I -->
+    <!-- System 3: TRINETRA-C2 -->
+    <g transform="translate(0, 168)">
+      <rect x="0" y="0" width="375" height="120" rx="10" fill="url(#tile-bg)" stroke="url(#tile-border)" stroke-width="1.3" />
+      <text x="18" y="26" class="gold-sans" font-size="17" font-weight="800" fill="#fef08a">TRINETRA-C2</text>
+      <text x="18" y="48" class="gold-sans" font-size="12.5" font-weight="500" fill="#f0e6c8">
+        Tactical edge surveillance platform with multi-camera ReID,
+      </text>
+      <text x="18" y="66" class="gold-sans" font-size="12.5" font-weight="500" fill="#f0e6c8">
+        offline acoustic routing, and &gt;94% false alarm reduction.
+      </text>
+      <g transform="translate(18, 84)">
+        <rect x="0" y="0" width="62" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="31" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">OpenCV</text>
+
+        <rect x="68" y="0" width="62" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="99" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">YOLOv8</text>
+
+        <rect x="136" y="0" width="62" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="167" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">Whisper</text>
+
+        <rect x="204" y="0" width="40" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="224" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">C++</text>
+      </g>
+    </g>
+
+    <!-- System 4: ASTRA-C4I -->
+    <g transform="translate(391, 168)">
+      <rect x="0" y="0" width="375" height="120" rx="10" fill="url(#tile-bg)" stroke="url(#tile-border)" stroke-width="1.3" />
+      <text x="18" y="26" class="gold-sans" font-size="17" font-weight="800" fill="#fef08a">ASTRA-C4I</text>
+      <text x="18" y="48" class="gold-sans" font-size="12.5" font-weight="500" fill="#f0e6c8">
+        Counter-UAS drone threat simulation trainer with tactical
+      </text>
+      <text x="18" y="66" class="gold-sans" font-size="12.5" font-weight="500" fill="#f0e6c8">
+        C4I multi-target intercept loops and 3D radar tracking.
+      </text>
+      <g transform="translate(18, 84)">
+        <rect x="0" y="0" width="80" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="40" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">TypeScript</text>
+
+        <rect x="86" y="0" width="60" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="116" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">React 18</text>
+
+        <rect x="152" y="0" width="64" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="184" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">Three.js</text>
+
+        <rect x="222" y="0" width="46" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="245" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">Vite</text>
+      </g>
+    </g>
+
+    <!-- Row 3: Project-Sentinel & Mobile-Hygiene-Guardian -->
+    <!-- System 5: Project-Sentinel -->
+    <g transform="translate(0, 300)">
+      <rect x="0" y="0" width="375" height="120" rx="10" fill="url(#tile-bg)" stroke="url(#tile-border)" stroke-width="1.3" />
+      <text x="18" y="26" class="gold-sans" font-size="17" font-weight="800" fill="#fef08a">Project-Sentinel</text>
+      <text x="18" y="48" class="gold-sans" font-size="12.5" font-weight="500" fill="#f0e6c8">
+        Distributed Video Management System (VMS) with sub-300ms
+      </text>
+      <text x="18" y="66" class="gold-sans" font-size="12.5" font-weight="500" fill="#f0e6c8">
+        WebRTC live video wall, GIS registry, and Redis-cached ANPR.
+      </text>
+      <g transform="translate(18, 84)">
+        <rect x="0" y="0" width="56" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="28" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">FastAPI</text>
+
+        <rect x="62" y="0" width="62" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="93" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">WebRTC</text>
+
+        <rect x="130" y="0" width="46" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="153" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">Redis</text>
+
+        <rect x="182" y="0" width="68" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="216" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">PostGIS</text>
+      </g>
+    </g>
+
+    <!-- System 6: Mobile-Hygiene-Guardian -->
+    <g transform="translate(391, 300)">
+      <rect x="0" y="0" width="375" height="120" rx="10" fill="url(#tile-bg)" stroke="url(#tile-border)" stroke-width="1.3" />
+      <text x="18" y="26" class="gold-sans" font-size="17" font-weight="800" fill="#fef08a">Mobile-Hygiene-Guardian</text>
+      <text x="18" y="48" class="gold-sans" font-size="12.5" font-weight="500" fill="#f0e6c8">
+        Zero-trust mobile cyber auditor for Android with sideload
+      </text>
+      <text x="18" y="66" class="gold-sans" font-size="12.5" font-weight="500" fill="#f0e6c8">
+        watchdog alerts and 1-tap Gujarat Police forensic reporting.
+      </text>
+      <g transform="translate(18, 84)">
+        <rect x="0" y="0" width="46" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="23" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">Dart</text>
+
+        <rect x="52" y="0" width="58" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="81" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">Flutter</text>
+
+        <rect x="116" y="0" width="62" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="147" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">Android</text>
+
+        <rect x="184" y="0" width="76" height="20" rx="4" fill="#241b0b" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6" />
+        <text x="222" y="14" text-anchor="middle" class="gold-mono" font-size="10" font-weight="700" fill="#fde047">Forensics</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="42" y1="810" x2="808" y2="810" stroke="url(#gold-border)" stroke-width="1" stroke-opacity="0.35" />
+
+  <!-- ================= SECTION 4: HONORS & SYSTEMS WRITING ================= -->
+  <g transform="translate(42, 840)">
+    <!-- Column 1: Honors & Recognitions -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="16" class="gold-mono" font-size="14" font-weight="700" fill="#fde047" letter-spacing="1.5">🏆 HONORS &amp; RECOGNITIONS</text>
+      
+      <!-- Honor 1 -->
+      <g transform="translate(0, 36)">
+        <circle cx="8" cy="9" r="3.5" fill="#fde047" />
+        <text x="22" y="14" class="gold-sans" font-size="15" font-weight="700" fill="#fef08a">3x National Hackathon Winner</text>
+        <text x="22" y="34" class="gold-sans" font-size="13" font-weight="500" fill="#c9b98b">Edge Surveillance, Assistive Neural Interfaces, Defense</text>
+      </g>
+
+      <!-- Honor 2 -->
+      <g transform="translate(0, 90)">
+        <circle cx="8" cy="9" r="3.5" fill="#fde047" />
+        <text x="22" y="14" class="gold-sans" font-size="15" font-weight="700" fill="#fef08a">NASA OSDR-AWG</text>
+        <text x="22" y="34" class="gold-sans" font-size="13" font-weight="500" fill="#c9b98b">Active member exploring AI-driven biological discovery</text>
+      </g>
+
+      <!-- Honor 3 -->
+      <g transform="translate(0, 144)">
+        <circle cx="8" cy="9" r="3.5" fill="#fde047" />
+        <text x="22" y="14" class="gold-sans" font-size="15" font-weight="700" fill="#fef08a">Google Gemini Preview &amp; GenAI Academy</text>
+        <text x="22" y="34" class="gold-sans" font-size="13" font-weight="500" fill="#c9b98b">APAC Cohort // AMD Academy HPC &amp; GPU Acceleration</text>
+      </g>
+    </g>
+
+    <!-- Column 2: Systems Architecture Writing -->
+    <g transform="translate(415, 0)">
+      <text x="0" y="16" class="gold-mono" font-size="14" font-weight="700" fill="#fde047" letter-spacing="1.5">📑 SYSTEMS ARCHITECTURE WRITING</text>
+
+      <!-- Article 1 -->
+      <g transform="translate(0, 36)">
+        <rect x="0" y="0" width="350" height="46" rx="6" fill="#18130a" stroke="#d4af37" stroke-width="1" stroke-opacity="0.3" />
+        <text x="14" y="20" class="gold-sans" font-size="14" font-weight="700" fill="#fef08a">Self-Healing Execution Graphs</text>
+        <text x="14" y="36" class="gold-sans" font-size="11.5" font-weight="500" fill="#a89260">Cascading Agent Failures Before Production (DEV.to)</text>
+      </g>
+
+      <!-- Article 2 -->
+      <g transform="translate(0, 90)">
+        <rect x="0" y="0" width="350" height="46" rx="6" fill="#18130a" stroke="#d4af37" stroke-width="1" stroke-opacity="0.3" />
+        <text x="14" y="20" class="gold-sans" font-size="14" font-weight="700" fill="#fef08a">State Drift in Parallel Execution Systems</text>
+        <text x="14" y="36" class="gold-sans" font-size="11.5" font-weight="500" fill="#a89260">Distributed Deterministic Boundaries (Medium)</text>
+      </g>
+
+      <!-- Article 3 -->
+      <g transform="translate(0, 144)">
+        <rect x="0" y="0" width="350" height="46" rx="6" fill="#18130a" stroke="#d4af37" stroke-width="1" stroke-opacity="0.3" />
+        <text x="14" y="20" class="gold-sans" font-size="14" font-weight="700" fill="#fef08a">600+ Node AI Orchestration Platform</text>
+        <text x="14" y="36" class="gold-sans" font-size="11.5" font-weight="500" fill="#a89260">High-Throughput Production Infrastructure (DEV.to)</text>
+      </g>
+    </g>
+  </g>
+</svg>
