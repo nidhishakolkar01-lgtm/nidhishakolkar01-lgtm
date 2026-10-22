@@ -1,3 +1,5 @@
 commit_seq: 5206
 timestamp: 2026-10-22T22:42:39
 node: core-runtime-engine
+telemetry_node: distributed-orchestrator-alpha
+status: active
